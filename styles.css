@@ -1,0 +1,299 @@
+
+
+.submit {
+    background-color: #336799;
+    font: normal 14px arial,verdana;
+    color: #ffffff;
+    border-bottom:#336799;
+    border-top:#336799;
+    border-left:#336799;
+    border-right:#336799;
+    text-align:left;
+    text-decoration:underline;
+    margin-left: -4px;
+    
+    }
+    
+    .submit_cyl {
+    background-color: #FfFfF5;
+    font: normal 14px arial,verdana;
+    color: #000000;
+    border-bottom:#FfFfF5;
+    border-top:#FfFfF5;
+    border-left:#FfFfF5;
+    border-right:#FfFfF5;
+    text-align:left;
+    text-decoration:underline;
+    margin-left: -4px;
+    width: 350;
+    
+    }
+    
+     .submit_masala
+        {
+            background-color: Transparent;
+            text-decoration: underline;
+            color: blue;
+            cursor: pointer;
+            border:0
+        }
+    #carieli {
+        height:20px;
+    }
+    
+    
+    .style761 {color: #000000;
+    font-size: small;}
+    .forms {
+        background-color: #336799;
+        font: normal 12px arial,verdana;
+        padding: 3px;
+        border: 1px solid #CAE4FF;
+        text-transform: none;
+    }
+    
+    .forms_axali {
+    background-color: #999999;
+    font: normal 12px arial,verdana;
+    padding: 3px;
+    border: 1px solid #CAE4FF;
+    }
+    .forms_gamocda {
+    background-color: #999999;
+    font: normal 12px arial,verdana;
+    padding: 3px;
+    border: 1px ;
+    width: 700px;
+    
+    }
+    
+    
+    .myaccount {
+    background-color: #336799;
+    font: normal 14px arial,verdana;
+    color: #ffffff;
+    padding: 2px 5px;
+    
+    border: 1px solid #ffffff;
+    
+    }
+    
+    
+    
+    .main {
+    font: normal 12px arial,verdana;
+    padding: 2px;
+    margin: 2px;
+    
+     }
+    
+     .titlehdr {
+     font: normal 22px ;
+     color: #c00;
+    
+     border-bottom: 1px solid #c00;
+    
+    
+     }
+     .titlehdr1 {
+        color: #F7F6F5;
+        font-size: 22px;
+        font-style: oblique;
+        font-weight: bold;
+        font-variant: normal;
+        line-height: normal;
+        text-decoration: underline;
+    
+     }
+    
+      .titlehdr2 {
+     color: #c00;
+     border-bottom: 1px solid #c00;
+     font: normal 22px ;
+         font-weight: bold;
+    
+     }
+    
+     .titlehdr3 {
+     border-bottom: 1px solid #0080FF;
+     }
+    .titlehdr3:hover {
+        color: #000000;
+        background: #0080FF;
+    }
+    
+      .titlehdr3_granti {
+     border-bottom: 1px solid #0080FF;
+     }
+    .titlehdr3_granti:hover {
+        color: #000000;
+    
+        background:#CCFFFF
+    
+    }
+    
+    .interimGrades:hover {
+        color: #000000;
+        background: #0080FF;
+    }
+    
+     .titlehdr4 {
+     border-bottom: 2px solid #999999;	}
+    
+    .msg {
+    padding: 5px;
+    width: 600px;
+    margin: 2px;
+    color: #c00;
+    border: 1px solid #c00;
+    background-color: #FEF1ED;
+    font: bold 13px  verdana;
+    }
+    
+    .error {
+    font: normal 11px arial, verdana;
+    color: #c00;
+    border: 1px solid #c00;
+    padding: 2px;
+    margin: 5px;
+    float: left;
+    background-color: #FEF1ED;
+    }
+    
+     .example {
+    font: normal 10px arial;
+    color: red;
+    }
+    .approved {
+    font: normal 10px arial;
+    color: green;
+    }
+    
+    .loginform {
+    font: 16px normal arial;
+    font: normal 14px arial,verdana;
+    color: #ffffff;
+    }
+    
+    .loginform #txtbox {
+    font: bold 12px arial;
+    color: #000000;
+    }
+    
+    .style1 {font-size: 10px}
+    .style2 {font-size: 14px}
+    .style3 {font: bold 14px arial}
+    .style41 {color: #000000;
+    font-size: small}
+    .style42 {color: #0000FF;
+    font-size: x-small
+    }
+    
+    .style5 { color: #000000;}
+    .style51 {color: #000000;}
+    
+    
+    
+    .style2 {color: #FFFFFF;
+    font-size: x-large }
+    .style4 {color: #000000;
+    font-size: small
+    }
+    .style3 {color: #c00;
+    font-size: large
+    }
+    .style10 {color: #FFFF33;
+    font-weight: bold;
+    font-size: small
+    
+    }
+    .style6 {
+             color: #000000;
+        font-weight: bold;
+        font-size: small
+        }
+    
+    .style62 {
+        color: #000000;
+        font-size: small
+        }
+    
+    
+    .style722 {color: #F78FE9;
+             font-weight: bold;
+    font-size: small
+    }
+    
+    .style12 {
+    
+        font-size: 18px;
+    }
+    
+    
+    .style14 {
+    
+        font-size: 14px;
+    }
+    .style13 {font-family: "Times New Roman", Times, serif;
+    font-size: 13px;}
+    
+    
+    
+    .style21 {color: #CCFF99;
+    font-size: small
+    
+    }
+    .style16 {
+        color: #ffffff;
+        font-size: x-small
+        }
+    .style71 {font-family: Times New Roman;
+        color: #CCFF99;
+        font-size: small
+    }
+    .style72 {
+    font-size: 28px;
+    color: #336799}
+    .style78 {font-weight: bold;
+    color: #336799}
+    .style73 {
+        color: #000000;
+        font-size: 16px;
+    
+    }
+    .style75 {color: #3300CC}
+    .style76 {color: #c00}
+    
+    .style61 {font-family: Times New Roman;
+        color: #000000;
+        font-weight: bold;
+        font-size: small
+        }
+    
+    .style77 {color: #c00;
+    font-weight: bold;
+    font-size: small
+    }
+    .style11 {font-size: 14px}
+    
+      .titlehdr31 {
+     border-bottom: 1px solid #0080FF;
+     }
+    .titlehdr31:hover {
+        color: #000000;
+        background: #0080FF;
+    }
+    
+    .style731 {color: #FF0000;
+        font: 13px arial
+    }
+    .style732 {
+        font: 16px arial;
+    
+    
+    }
+    .style741 {color: #000000;
+        font: 13px arial
+    }
+    
+    
