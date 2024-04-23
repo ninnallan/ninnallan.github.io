@@ -1,230 +1,275 @@
-<!doctype html>
 <html>
     <head>
-        <title>პირადი პროფილი</title>
-        
-        </head>
-        <body><table width="1200" border="0" cellspacing="0" cellpadding="5" class="main">
-            <tbody><tr>
-              <td colspan="3">&nbsp;</td>
-            </tr>
-            <tr>
-                  <td width="200" valign="top">
-          
-          
-             <title>კავკასიის უნივერსიტეტი</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-             <link href="../../cu/resources/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
-            <link rel="stylesheet" href="../../cu/resources/css/bootstrap.min.css">
-               <link rel="stylesheet" href="../../students/styles.css">
-            <script src="../../cu/resources/js/jquery.js"></script>
-            <script src="../../cu/resources/js/bootstrap.min.js"></script>
-            
-            
-            
-            
-           
-            
-            
-            
-            
-            
-            
-            
-            <script>
-                $(function(){
-              $(".dropdown-toggle").click(function(e){
-                  $(this).dropdown('toggle');
-                  return false;
-              });
-          });
-          function conf(){
-              var lang=1;
-              if(lang==1){if(!confirm("გსურთ საგანზე რეგისტრაციის გაუქმება?")) return false;}
-              else{if(!confirm("You want to unregister a subject?")) return false;}
-          
-          
-          
-          return true;
-          }
-              </script><style type="text/css">
-          
-              .style73 {color: #FFFFFF}
-          
-              a {
-                  color: #ffffff;
-          
-              }
-              a:hover {
-                  color: ffffff;
-              }
-          
-              .nounderline{
-                  text-decoration: none !important;
-              }
-              .font14{
-                  font-size: 14px;
-              }
-          
-              div {
-                  background-color: #336799;
-              }
+        <title>მასალები</title>
+        <link rel="shortcut icon" href="../images/favicon.ico">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+        <!--
+        body {
+            background-color: #ffffff;
+        }
+        .style79 {color: #0033FF}
+        .style81 {
+            color: #990033;
+            font-weight: bold;
+        }
+        -->
           </style>
-          
-          
-             <!-- მენიუ აქ-->
-          
-          
-              <div>
-          
-                  <a href="piradi_menu.php" class="style732" style="color:
-                  #ffffff;">პირადი პროფილი</a><br>
-          
-          
-                  <p></p>
-                  
-                      <a href="cxrili.php" class="style732" style="color:
-                  #ffffff;">მიმდინარე სემესტრის ცხრილი</a><br>
-                      <p></p>
-          
-          
-                          <p></p>
-                  <a href="registracia_menu.php" class="style732" style="color:
-                  #ffffff;">რეგისტრაცია</a><br>
-                  <p></p>
-                  <a href="sylab.php" class="style732" style="color:
-                  #ffffff;">სილაბუსები</a><br>
-                  <p></p>
-          
-                  <a href="masalebi_1.php" class="style732" style="color:
-                  #ffffff;">მასალები</a><br>
-          
-                  <p></p>
-                  <a href="schedule.php" class="style732" style="color:
-                  #ffffff;">ლექციების ცხრილი</a><br>
-                  <p></p>
-          
-          
-          
-                  <a href="https://net.cu.edu.ge/student_exam/10014556/1/0f12ez6ah3uibmgpvnq7/1" class="style732" style="color:
-                  #ffffff;" target="_blank">გამოცდების ცხრილი</a><p>
-          
-          
-                  </p><p></p>
-          
-          
-          
-                  <!--
-                  <a href='https://net.cu.edu.ge/assessment/' class="style732"  style="color:
-                  #ffffff;"     target="_blank" ></a>
-                      -->
-          
-                  <p></p>
-          
-          
-                        <!--  <div id="carieli"> </div> <a href='https://net.cu.edu.ge/vaccinationStud/' class="style732"
-                                               style="color: orangered"     target="_blank" >COVID_19</a><p>
-          -->
-                      
-          
-          
-          
-          
-          
-          
-                  <p></p>
-                  <p>&nbsp;</p>
-          
-                      
-                  <p></p>
-                  <p>&nbsp;</p>
-          
-          
-                  <!--
-                      <a href="International_student_questionnaire_form.php"></a><br>
-                      <P></P>-->
-                  
-          
-                  <p></p>
-                  <div id="carieli"> </div>
-                  <div id="carieli"> </div>
-                              <a href="https://cu.edu.ge/survey/reasearch-news/cu-call-for-students-extracurricular-skills-development" target="_blank" class="style732" style="color: yellow;">შიდა საუნივერსიტეტო დაფინანსების მოპოვება</a>
-                  
-          
-                  <div id="carieli"> </div>
-                  <div id="carieli"> </div>
-                              <p></p>
-                      <a href="https://cu.edu.ge/files/Docs/Grant%20Project/doc/Booklet%20A5%20Web%20.pdf" target="_blank" style="color: #03fdffe0;">რა არის პლაგიატი?</a><br>
-                      <p></p>
-                      <a href="https://www.youtube.com/watch?v=jgjgmvP2Rxc&amp;feature=youtu.be" target="_blank" style="color: #03fdffe0;">ელ.ფოსტის ვიდეო ინსტრუქცია</a><br>
-                      <p></p>
-                      <a href="https://www.youtube.com/watch?v=Iyrev2oRt6E&amp;feature=youtu.be" target="_blank" style="color: #03fdffe0;">მუდლის ვიდეო ინსტრუქცია</a><br>
-                              <!--     <a href="https://www.youtube.com/watch?v=5I7fOj_Di9c&feature=youtu.be" style="color: #ff0303;" target="blank"></a><br>
-           <p>&nbsp;</p>
-          
-                <a href="https://dl.cu.edu.ge"  target="blank">dl.cu.edu.ge</a><br>-->
-                  <!--
-                <p></p>-->
-                  <p></p>
-          
-                  <strong><a href="logout.php" class="style732" style="color:
-                  #ffffff;">სისტემიდან გამოსვლა</a></strong><br>
-              </div>
-          
-          
-          
-          
-          
-          </td>
-          
-              <td width="732" valign="top">
-                <h3 class="titlehdr">პირადი პროფილი</h3>
-          
-                <p>
-          
-                </p><form action=" " method="post" name="myform" id="myform">
-                  <table width="100%" border="0" align="left" cellpadding="3" cellspacing="3" class="forms">
-                      <tbody><tr>
-                      <td>
-                    <!--<br> <a href='form_application.php?stud_id=' class="style73" >პირადი ინფორმაცია</a>-->
-                            
-          
-           <p> <a href="studenti_piradi.php" class="style73">პირადი ინფორმაცია</a>
-           
-           </p><p> <a href="gadaxda.php" class="style73">გადახდები</a>
-          
-               <!--
-           <p><a href='http://127.0.0.1:8000/paymentSchedule/'
-                                class="style73" target="_blank"></a> </p>
-           <p> <a href='../cu/controllers/students/C_PaymentSchedule.php' class="style73" ></a>
-           -->                </p><p><a href="../cu/controllers/students/C_PaymentSchedule.php" class="style73">გადახდის გრაფიკი</a>
-                              
-           </p><p><a href="gpa_pirveli.php" class="style73">ნიშნები, GPA გამოთვლა</a>
-          
-             
-           </p><p> <a href="agricxva_cxrili.php" class="style73">აღრიცხვა</a>
-          <!--
-          
-                          <p><a href='specialoba.php' class="style73" >კონცეტრაციის არჩევა</a>
-          
-                              -->
-                      </p></td>
-                    </tr>
-          
-          
-          
-                  </tbody></table>
-          
-                </form>
-          
-          
-          
-          </td></tr></tbody></table>
-          
-          
-          
-          </body>
+        </head>
+        <body>
 
+<table width="2000" border="0" cellspacing="0" cellpadding="5">
+  <tbody><tr>
+       <td width="1800" valign="top">
+         <p> 
+         </p><h3 class="titlehdr2">ობიექტზე ორიენტირებული პროგრამირება&nbsp;ორშ&nbsp;11:15-13:10</h3>
+	  <table align="left">
+<tbody><tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-1</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">19/02/2024</span></td></tr>   <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://net.cu.edu.ge/materials/2024-02-22_23-44-18_uoDFqiuwy14t6vuhbLoBubGZODmojLJFqi3KHY6L.pptx">  - 2024-02-22_23-44-18_uoDFqiuwy14t6vuhbLoBubGZODmojLJFqi3KHY6L.pptx</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://net.cu.edu.ge/materials/2024-02-24_14-28-23_lHiABLsedf3cGq1bk72taCcmkm15dYN85ww4JskM.txt">  - 2024-02-24_14-28-23_lHiABLsedf3cGq1bk72taCcmkm15dYN85ww4JskM.txt</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://net.cu.edu.ge/materials/2024-02-24_14-29-26_cgbKwyjY3hl9zTUWRDsdyIkS4fL9ztOKFrT2wuxR.c">  - 2024-02-24_14-29-26_cgbKwyjY3hl9zTUWRDsdyIkS4fL9ztOKFrT2wuxR.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+     <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-2</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">26/02/2024</span></td></tr>   <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://net.cu.edu.ge/materials/2024-03-01_19-30-05_G5ocXDBrfyfcaUGXe4CIi64QO9fBmAGk1z3SbT7D.pptx">  - 2024-03-01_19-30-05_G5ocXDBrfyfcaUGXe4CIi64QO9fBmAGk1z3SbT7D.pptx</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://net.cu.edu.ge/materials/2024-03-01_19-30-20_ALDsRSFVXiicQ01permVXBL1XlGGqrYEnPXdePCr.pdf">  - 2024-03-01_19-30-20_ALDsRSFVXiicQ01permVXBL1XlGGqrYEnPXdePCr.pdf</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://fastupload.io/UMupyW06BNvl/lTY7CZnKX6rePTk/gXeGOMjLk3Aa7/%E1%83%9A%E1%83%94%E1%83%A5%E1%83%AA%E1%83%98%E1%83%90%205.pptx">  - 2024-03-01_19-27-39_CBv6d2sLvBuHImZ1S8fDw4UiqiMfhsAfC9jQIqlm55.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://fastupload.io/aWJV5DeMq5Ju/4HipLgqH3hmYel4/LK0G1onBZ3917/%E1%83%9A%E1%83%94%E1%83%A5%E1%83%AA%E1%83%98%E1%83%90%204%20%281%29.pptx">  - 2024-03-01_19-28-01_dgGvyEBrXWlD0bJYazJ8z6JkAOflWBfinguKWLWw44.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://fastupload.io/z2BmYeYnac2Y/7MVTXkj8ZxW6yAg/qPez41n9aGOYn/%E1%83%9A%E1%83%94%E1%83%A5%E1%83%AA%E1%83%98%E1%83%90%206.pptx.pdf">  - 2024-03-01_19-28-15_rMry8afNSZbTbQd2HjRnKrh1RDWlyDyR2y8iqSpI66.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://fastupload.io/XqK2LeAh21LD/Y6HCvfDahjo5Jdn/RMKGJpgVP31oP/%E1%83%9A%E1%83%94%E1%83%A5%E1%83%AA%E1%83%98%E1%83%90%206%20%28%E1%83%9B%E1%83%90%E1%83%A1%E1%83%98%E1%83%95%E1%83%98%29.pptx.pdf">  - 2024-03-01_19-28-28_ToDRlZx2P91XvFlD2vCr7gbSXcOW6s0exw2e02UJ661.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://fastupload.io/UqzBfHXpjPx9/WhWXykcuOd6Hmih/0JgG7XnV8moYW/Unique.java">  - 2024-03-01_19-28-51_rH62hmIJPEnzJZdoWCwbcRFgqG95Ff6wjJcdkokU.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+       <tr>
+  
+ <td bgcolor="#FfFfF5"><span class="style79"><div align="left">
+  <a target="_blank" href="https://fastupload.io/pNpprUUPv99H/BIs6HGyH2zU8dDY/XkrzoPLVkGBOR/Main.java">  - 2024-03-01_19-29-06_JXndMYrD3RSZqsbyfcqi5rpkCP5IVN4L0yNdPEhu.c</a>
+
+         </div></span></td>
+    <td bgcolor="#FfFfF5">
+
+    </td>
+
+   </tr>
+     <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-3</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">04/03/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-4</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">11/03/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-5</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">18/03/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-6</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">25/03/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-7</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">23/04/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-8</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">06/05/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-9</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">13/05/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-10</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">27/05/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-11</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">03/06/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-12</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">10/06/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-13</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">17/06/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+<tr><td align="left" class="titlehdr4"><span class="titlehdr3">ლექცია-14</span></td><td align="left" class="titlehdr4"> <span class="titlehdr3">24/06/2024</span></td></tr> <tr height="20">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+
+<tr height="50">
+
+         <td class="style1" valign="bottom">&nbsp;</td>
+         <td class="style1" valign="bottom">&nbsp;</td>
+
+       <td class="style1" valign="bottom">&nbsp;</td>
+    <td class="style1" valign="bottom">&nbsp;</td>
+       <th colspan="1" valign="bottom">&nbsp;</th></tr>
+       <tr><td colspan="3" width="200" align="left" class="titlehdr4"><span class="style81">დამატებითი მასალები</span></td></tr>
+  
+
+
+</tbody></table></td></tr></tbody></table></body>    
 
 </html>
